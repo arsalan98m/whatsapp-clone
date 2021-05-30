@@ -1,0 +1,35 @@
+.login {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.login__container {
+  background: white;
+  text-align: center;
+  padding: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.login__container > img {
+  height: 100px;
+  margin-bottom: 40px;
+  object-fit: contain;
+}
+
+@media screen and (min-width: 992px) {
+  .login__container {
+    padding: 100px;
+  }
+}
+
+.login__container > button {
+  margin-top: 50px;
+  text-transform: inherit;
+  background: #0a8d48 !important;
+  color: white;
+}
